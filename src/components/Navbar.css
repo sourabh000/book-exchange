@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar {
+    background-color: #1e3a8a; /* Dark blue background */
+  }
+  
+  .navbar-container {
+    max-width: 1200px; /* Limit max width */
+    margin: 0 auto; /* Center the navbar */
+    padding: 10px 20px; /* Add padding to the navbar */
+  }
+  
+  .navbar-title {
+    color: #ffffff; /* White color for title */
+  }
+  
+  .navbar-links {
+    display: flex; /* Ensure links are in a row */
+    justify-content: space-evenly; /* Evenly space the links */
+    width: 100%; /* Take full width */
+  }
+  
+  .navbar-link {
+    color: #ffffff; /* White color for links */
+    padding: 10px 15px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .navbar-link:hover {
+    background-color: #2563eb; /* Lighter blue on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }

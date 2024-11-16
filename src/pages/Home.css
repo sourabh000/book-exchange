@@ -1,0 +1,18 @@
+/* Home.css */
+.home-container {
+    background-image: url('https://images.unsplash.com/photo-1512820790803-83ca734da794'); /* Replace with your desired background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+
+
+  
+ 

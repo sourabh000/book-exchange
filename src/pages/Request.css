@@ -1,0 +1,96 @@
+/* Request.css */
+
+.requests-container {
+    padding: 2rem;
+    background-color: #f7f7f7; /* Light background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.request-item {
+    background-color: #ffffff; /* White background for each request item */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1rem; /* Padding inside each request item */
+    margin-bottom: 1rem; /* Space between request items */
+    transition: box-shadow 0.2s; /* Smooth transition for hover effect */
+}
+
+.request-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.no-requests {
+    text-align: center; /* Center text for no requests message */
+    color: #999; /* Gray color for the message */
+    font-size: 1.2rem; /* Slightly larger font size */
+}
+
+.text-3xl {
+    font-size: 1.875rem; /* Equivalent to Tailwind's text-3xl */
+}
+
+.font-bold {
+    font-weight: bold; /* Bold font weight */
+}
+
+.mb-4 {
+    margin-bottom: 1rem; /* Margin bottom for spacing */
+}
+
+.text-center {
+    text-align: center; /* Center text */
+}
+
+/* New styles for book ID and status */
+.requesting-book-id {
+    font-weight: bold; /* Make the book ID bold */
+}
+
+.status {
+    font-weight: bold; /* Make the status bold */
+    color: #4f46e5; /* Change the color of the status text */
+}
+
+.status.pending {
+    color: orange; /* Color for pending status */
+}
+
+.status.accepted {
+    color: green; /* Color for accepted status */
+}
+
+.status.rejected {
+    color: red; /* Color for rejected status */
+}
+
+/* Button styles */
+.button-group {
+    margin-top: 1rem; /* Space above the button group */
+}
+
+.approve-button, .reject-button {
+    padding: 0.5rem 1rem; /* Padding for buttons */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 0.5rem; /* Space between buttons */
+}
+
+.approve-button {
+    background-color: #4CAF50; /* Green background for approve */
+    color: white; /* White text */
+}
+
+.approve-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.reject-button {
+    background-color: #f44336; /* Red background for reject */
+    color: white; /* White text */
+}
+
+.reject-button:hover {
+    background-color: #e53935; /* Darker red on hover */
+}

@@ -1,0 +1,79 @@
+/* AddBook.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.add-book-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #e2e2e2, #ffffff);}
+
+.add-book-form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.add-book-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.add-book-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.add-book-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.add-book-form input:focus {
+    border-color: #4f46e5;
+}
+
+.add-book-form button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    background-color: #4f46e5;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-book-form button:hover {
+    background-color: #4338ca;
+}
+
+.add-book-form p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.add-book-form a {
+    color: #4f46e5;
+    text-decoration: underline;
+}
+
+.add-book-form a:hover {
+    color: #4338ca;
+}
